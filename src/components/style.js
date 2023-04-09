@@ -28,6 +28,17 @@ const styleSheet = StyleSheet.create({
     flexGrow: 1,
     height: "100%",
     marginHorizontal: 8,
+    backgroundColor: "white",
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    color: "red",
+  },
+
+  buttonText: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#865DFF"
   },
 
   input: {
