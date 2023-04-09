@@ -5,7 +5,6 @@ import CustomButton from "./CustomButton";
 
 export default function CalculatorRow({ buttons, onBtnClick }) {
   const keyRows = Object.keys(buttons).map((key, i) => {
-    console.log(key, buttons[key]);
     return <CustomButton
       title={key}
       style={buttons[key]}
